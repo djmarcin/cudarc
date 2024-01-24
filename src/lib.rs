@@ -91,5 +91,7 @@ pub mod driver;
 pub mod nccl;
 #[cfg(feature = "nvrtc")]
 pub mod nvrtc;
+#[cfg(feature = "runtime")]
+pub mod runtime;
 
 pub mod types;
